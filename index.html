@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TuttoOK! — Rassicura chi ami</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #f7f9fc;
+    color: #1a1a1a;
+    line-height: 1.6;
+    padding: 40px 20px;
+  }
+  .container {
+    max-width: 640px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 48px 32px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+  }
+  .logo {
+    font-size: 32px;
+    font-weight: 700;
+    color: #2d6a4f;
+    text-align: center;
+    margin-bottom: 32px;
+    letter-spacing: -0.5px;
+  }
+  h1 {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    color: #1a1a1a;
+    margin-bottom: 12px;
+    line-height: 1.3;
+  }
+  .subtitle {
+    text-align: center;
+    color: #555;
+    font-size: 17px;
+    margin-bottom: 40px;
+  }
+  .features {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  .feature {
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+  }
+  .feature-icon {
+    font-size: 22px;
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e8f5ec;
+    border-radius: 8px;
+  }
+  .feature-text strong {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 2px;
+    color: #1a1a1a;
+  }
+  .feature-text span {
+    font-size: 15px;
+    color: #666;
+  }
+  .offer {
+    background: #fff4e6;
+    border-left: 4px solid #f59e0b;
+    padding: 16px 20px;
+    border-radius: 8px;
+    margin-bottom: 28px;
+    font-size: 15px;
+    color: #7c4a03;
+  }
+  .offer strong { color: #92400e; }
+  .form-title {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 16px;
+    color: #1a1a1a;
+  }
+  .trust {
+    text-align: center;
+    font-size: 13px;
+    color: #888;
+    margin-top: 20px;
+  }
+  @media (max-width: 480px) {
+    .container { padding: 32px 20px; }
+    h1 { font-size: 24px; }
+    .logo { font-size: 28px; }
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">TuttoOK!</div>
+
+    <h1>Rassicura chi ami. Senza condividere la tua posizione.</h1>
+    <p class="subtitle">Un tocco sul widget, e la persona che ti importa sa che sei arrivato. Niente mappe, niente tracciamento, niente "dove sei?".</p>
+
+    <div class="features">
+      <div class="feature">
+        <div class="feature-icon">✅</div>
+        <div class="feature-text">
+          <strong>Un tocco, basta così</strong>
+          <span>Premi il widget sulla home screen. La notifica arriva. Non devi aprire l'app, non devi scrivere, non devi chiamare.</span>
+        </div>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">🔒</div>
+        <div class="feature-text">
+          <strong>La tua posizione resta tua</strong>
+          <span>Nessuna mappa, nessun tracciamento continuo. Decidi tu quando e cosa comunicare.</span>
+        </div>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">👨‍👩‍👧</div>
+        <div class="feature-text">
+          <strong>Per tutta la famiglia</strong>
+          <span>Dal ragazzo che va dall'amico al nonno che va a dormire. Ognuno manda il suo segnale, quando vuole.</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="offer">
+      <strong>🎁 Offerta fondatore:</strong> prezzo bloccato per sempre a <strong>1,99 €/mese</strong> per i primi 100 iscritti.
+    </div>
+
+    <div class="form-title">Lascia la tua email per accedere all'offerta</div>
+
+    <iframe data-tally-src="https://tally.so/embed/Pd7O0d?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="200" frameborder="0" marginheight="0" marginwidth="0" title="TuttoOK! - Lascia la tua email"></iframe>
+    <script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
+
+    <p class="trust">Niente spam. Solo un'email quando l'app è pronta.</p>
+  </div>
+</body>
+</html>
