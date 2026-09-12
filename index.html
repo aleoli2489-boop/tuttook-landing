@@ -1,4 +1,113 @@
 <!DOCTYPE html>
+html
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TuttoOK! — Rassicura chi ami, senza condividere la posizione</title>
+<meta name="description" content="Un tocco sul widget, e la persona che ti importa sa che sei arrivato. Privacy by design. Prezzo fondatore 1,99 €/mese per i primi 100 iscritti.">
+
+<!-- Open Graph per condivisione social -->
+<meta property="og:title" content="TuttoOK! — Rassicura chi ami, senza condividere la posizione">
+<meta property="og:description" content="Un tocco sul widget. Niente mappe, niente tracciamento. Prezzo fondatore per i primi 100 iscritti.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://aleoli2489-boop.github.io/tuttook-landing/">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --primary: #2d6a4f;
+    --primary-dark: #1b4332;
+    --primary-light: #e8f5ec;
+    --accent: #f59e0b;
+    --accent-light: #fff7ed;
+    --text: #0f172a;
+    --text-muted: #64748b;
+    --border: #e2e8f0;
+    --bg: #f8fafc;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    padding: 24px 16px 60px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    max-width: 620px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 24px;
+    padding: 56px 40px;
+    box-shadow: 0 10px 40px rgba(15, 23, 42, 0.08), 0 2px 8px rgba(15, 23, 42, 0.04);
+  }
+
+  /* Logo */
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 40px;
+    font-size: 22px;
+    font-weight: 800;
+    color: var(--primary);
+    letter-spacing: -0.5px;
+  }
+  .logo-mark {
+    width: 32px;
+    height: 32px;
+    background: var(--primary);
+    color: #fff;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 800;
+  }
+
+  /* Hero */
+  h1 {
+    font-size: 34px;
+    font-weight: 800;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: -0.8px;
+    margin-bottom: 16px;
+    color: var(--text);
+  }
+
+  .subtitle {
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 48px;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Features */
+  .features {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 40px;
+  }
+
   .feature {
     display: flex;
     gap: 16px;
