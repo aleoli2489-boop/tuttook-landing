@@ -4,11 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>TuttoOK! — Rassicura chi ami, senza condividere la posizione</title>
-<meta name="description" content="Un tocco sul widget, e la persona che ti importa sa che sei arrivato. Privacy by design. Prezzo fondatore 1,99 €/mese per i primi 100 iscritti.">
+<meta name="description" content="Un tocco sul widget, e la persona che ti importa sa che sei arrivato. Privacy by design. Versione base gratuita.">
 
 <!-- Open Graph per condivisione social -->
 <meta property="og:title" content="TuttoOK! — Rassicura chi ami, senza condividere la posizione">
-<meta property="og:description" content="Un tocco sul widget. Niente mappe, niente tracciamento. Prezzo fondatore per i primi 100 iscritti.">
+<meta property="og:description" content="Un tocco sul widget. Niente mappe, niente tracciamento. Versione base gratuita.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://aleoli2489-boop.github.io/tuttook-landing/">
 
@@ -92,11 +92,25 @@
     color: var(--text-muted);
     font-size: 17px;
     line-height: 1.6;
-    margin-bottom: 48px;
+    margin-bottom: 32px;
     max-width: 480px;
     margin-left: auto;
     margin-right: auto;
   }
+
+  /* Free badge */
+  .free-badge {
+    background: #e8f5ec;
+    border: 1px solid #c7e5d0;
+    border-radius: 12px;
+    padding: 14px 18px;
+    margin-bottom: 32px;
+    font-size: 14px;
+    color: #1b4332;
+    text-align: center;
+    line-height: 1.5;
+  }
+  .free-badge strong { color: #1b4332; font-weight: 700; }
 
   /* Features */
   .features {
@@ -187,7 +201,7 @@
   @media (max-width: 520px) {
     .container { padding: 40px 24px; border-radius: 20px; }
     h1 { font-size: 26px; }
-    .subtitle { font-size: 16px; margin-bottom: 36px; }
+    .subtitle { font-size: 16px; margin-bottom: 28px; }
     .feature-icon { width: 36px; height: 36px; font-size: 18px; }
     .feature-text strong { font-size: 15px; }
     .feature-text span { font-size: 14px; }
@@ -204,6 +218,10 @@
 
     <h1>Rassicura chi ami.<br>Senza condividere la tua posizione.</h1>
     <p class="subtitle">Un tocco sul widget, e la persona che ti importa sa che sei arrivato. Niente mappe, niente tracciamento, niente "dove sei?".</p>
+
+    <div class="free-badge">
+      🆓 <strong>Versione base gratuita.</strong> Il piano a pagamento è opzionale, per chi vuole più contatti e funzioni extra.
+    </div>
 
     <div class="features">
       <div class="feature">
@@ -229,12 +247,13 @@
       </div>
     </div>
 
-   <div class="offer">
-  🎁 <strong>Blocca il prezzo per sempre</strong><br>
-  <span class="price">1,99 €/mese</span> per i primi 100 iscritti<br>
-  <span style="font-size:14px;">Dopo il lancio costerà di più</span>
-</div>
-        <div class="form-section">
+    <div class="offer">
+      🎁 <strong>Prezzo di lancio</strong><br>
+      <span class="price">0,99 €/mese</span> per i primi 100 iscritti<br>
+      <span style="font-size:14px;">Dopo il lancio costerà 2,99 €/mese</span>
+    </div>
+
+    <div class="form-section">
       <div class="form-title">Lascia la tua email per accedere all'offerta</div>
       <div class="form-subtitle">Ci vorranno 10 secondi</div>
 
@@ -242,9 +261,9 @@
       <script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
 
       <p class="trust">
-  🔒 <strong>La tua email è al sicuro.</strong> Niente spam, niente condivisione con terzi.<br>
-  📬 <strong>Ti avvisiamo quando l'app è pronta.</strong>
-</p>
+        🔒 <strong>La tua email è al sicuro.</strong> Niente spam, niente condivisione con terzi.<br>
+        📬 <strong>Ti avvisiamo quando l'app è pronta.</strong>
+      </p>
     </div>
 
   </div>
