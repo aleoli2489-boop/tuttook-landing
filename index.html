@@ -92,32 +92,18 @@
     color: var(--text-muted);
     font-size: 17px;
     line-height: 1.6;
-    margin-bottom: 32px;
+    margin-bottom: 40px;
     max-width: 480px;
     margin-left: auto;
     margin-right: auto;
   }
-
-  /* Free badge */
-  .free-badge {
-    background: #e8f5ec;
-    border: 1px solid #c7e5d0;
-    border-radius: 12px;
-    padding: 14px 18px;
-    margin-bottom: 32px;
-    font-size: 14px;
-    color: #1b4332;
-    text-align: center;
-    line-height: 1.5;
-  }
-  .free-badge strong { color: #1b4332; font-weight: 700; }
 
   /* Features */
   .features {
     display: flex;
     flex-direction: column;
     gap: 24px;
-    margin-bottom: 40px;
+    margin-bottom: 32px;
   }
 
   .feature {
@@ -151,6 +137,20 @@
     color: var(--text-muted);
     line-height: 1.5;
   }
+
+  /* Free badge */
+  .free-badge {
+    background: #e8f5ec;
+    border: 1px solid #c7e5d0;
+    border-radius: 12px;
+    padding: 14px 18px;
+    margin-bottom: 32px;
+    font-size: 14px;
+    color: #1b4332;
+    text-align: center;
+    line-height: 1.5;
+  }
+  .free-badge strong { color: #1b4332; font-weight: 700; }
 
   /* Offer box */
   .offer {
@@ -201,7 +201,7 @@
   @media (max-width: 520px) {
     .container { padding: 40px 24px; border-radius: 20px; }
     h1 { font-size: 26px; }
-    .subtitle { font-size: 16px; margin-bottom: 28px; }
+    .subtitle { font-size: 16px; margin-bottom: 32px; }
     .feature-icon { width: 36px; height: 36px; font-size: 18px; }
     .feature-text strong { font-size: 15px; }
     .feature-text span { font-size: 14px; }
@@ -218,10 +218,6 @@
 
     <h1>Rassicura chi ami.<br>Senza condividere la tua posizione.</h1>
     <p class="subtitle">Un tocco sul widget, e la persona che ti importa sa che sei arrivato. Niente mappe, niente tracciamento, niente "dove sei?".</p>
-
-    <div class="free-badge">
-      🆓 <strong>Versione base gratuita.</strong> Il piano a pagamento è opzionale, per chi vuole più contatti e funzioni extra.
-    </div>
 
     <div class="features">
       <div class="feature">
@@ -245,6 +241,10 @@
           <span>Dal ragazzo che va dall'amico al nonno che va a dormire. Ognuno manda il suo segnale, quando vuole.</span>
         </div>
       </div>
+    </div>
+
+    <div class="free-badge">
+      🆓 <strong>Versione base gratuita.</strong> Il piano a pagamento è opzionale, per chi vuole più contatti e funzioni extra.
     </div>
 
     <div class="offer">
